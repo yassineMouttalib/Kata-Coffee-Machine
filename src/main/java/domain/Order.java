@@ -1,13 +1,13 @@
 package domain;
 
-import domain.message.*;
+
+import interfaces.*;
 
 public class Order
 {
     private Drink drink;
     private int sugarQuantity;
     private Message message;
-    private static String ORDER_SERVED = "order served!";
 
     public Message getMessage() {
         return message;
@@ -20,7 +20,6 @@ public class Order
     public Order(Drink drink) {
         this.drink = drink;
         this.sugarQuantity = 0;
-        message = new Messageimpl(ORDER_SERVED);
     }
 
     public void addSugar() {
