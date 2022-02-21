@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="867c2559-5009-4fff-b200-385f0a64991c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/money/AlwaysEnoughMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/money/DrinkBasedMoneyChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/money/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/BeverageQuantityChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/DrinkMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/EmailNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/MoneyChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/MoneyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/OrderReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MessageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DrinkBasedMoneyCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/message/Messageimpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,16 +61,25 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="Message" />
       <recent name="interfaces" />
       <recent name="domain" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MessageTest">
+  <component name="RunManager" selected="JUnit.OrderTest">
     <configuration name="CoffeeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoffeeMachine" />
       <module name="Kata-Coffee-Machine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrinkBasedMoneyCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-Coffee-Machine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DrinkBasedMoneyCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,21 +109,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coffeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coffeeMachine" />
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-Coffee-Machine" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="coffeeTest" />
+      <option name="MAIN_CLASS_NAME" value="OrderTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="coffeeTest.whenUseInjectMocksAnnotation_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coffeeMachine" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="coffeeTest" />
-      <option name="METHOD_NAME" value="whenUseInjectMocksAnnotation_thenCorrect" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.DrinkBasedMoneyCheckerTest" />
         <item itemvalue="JUnit.MessageTest" />
         <item itemvalue="JUnit.MessageTest.getTextTest" />
         <item itemvalue="Application.CoffeeMachine" />
-        <item itemvalue="JUnit.coffeeTest.whenUseInjectMocksAnnotation_thenCorrect" />
-        <item itemvalue="JUnit.coffeeTest" />
       </list>
     </recent_temporary>
   </component>
