@@ -2,5 +2,5 @@ package domain;
 
 public enum DrinkType
 {
-    COFFEE, TEA, CHOCOLATE
+    COFFEE, TEA, CHOCOLATE, ORANGE_JUICE
 }

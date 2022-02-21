@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="867c2559-5009-4fff-b200-385f0a64991c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DrinkBasedMoneyCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
+    <list default="true" id="867c2559-5009-4fff-b200-385f0a64991c" name="Default Changelist" comment="IT2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/DrinkType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/DrinkType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="it2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -68,13 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.OrderTest">
-    <configuration name="CoffeeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoffeeMachine" />
-      <module name="Kata-Coffee-Machine" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DrinkBasedMoneyCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-Coffee-Machine" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,6 +118,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderTest.teaOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-Coffee-Machine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderTest" />
+      <option name="METHOD_NAME" value="teaOrderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.OrderTest.teaOrderTest" />
         <item itemvalue="JUnit.DrinkBasedMoneyCheckerTest" />
         <item itemvalue="JUnit.MessageTest" />
         <item itemvalue="JUnit.MessageTest.getTextTest" />
-        <item itemvalue="Application.CoffeeMachine" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +158,14 @@
       <option name="presentableId" value="Default" />
       <updated>1644784929836</updated>
     </task>
+    <task id="LOCAL-00001" summary="IT2">
+      <created>1645447608108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645447608108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,5 +179,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IT2" />
+    <option name="LAST_COMMIT_MESSAGE" value="IT2" />
   </component>
 </project>

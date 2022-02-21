@@ -13,6 +13,9 @@ public class Drink
     public static final Drink CHOCOLATE =
             new Drink(DrinkType.CHOCOLATE,
                     new Money(50));
+    public static final Drink ORANGE_JUICE =
+            new Drink(DrinkType.ORANGE_JUICE,
+                    new Money(60));
     // attributes
     private DrinkType drinkType;
     private Money price;

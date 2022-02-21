@@ -8,6 +8,7 @@ public class Order
     private Drink drink;
     private int sugarQuantity;
     private Message message;
+    private boolean extraHot;
 
     public Message getMessage() {
         return message;
@@ -40,9 +41,17 @@ public class Order
 
     @Override
     public String toString() {
-        return getDrinkCommand() +
+        return getExtraHotDrinkCommand() +
                 ":" + getSugarCommand() +
                 ":" + getStickCommand();
+    }
+
+    public void setExtraHot() {
+        this.extraHot = true;
+    }
+
+    public boolean isExtraHot() {
+        return extraHot;
     }
 
 
@@ -55,6 +64,8 @@ public class Order
                 return "T";
             case CHOCOLATE:
                 return "H";
+            case ORANGE_JUICE :
+                return "O";
             default:
                 return "";
         }
@@ -75,4 +86,11 @@ public class Order
 
         return "0";
     }
+
+    private String getExtraHotDrinkCommand() {
+        if (isExtraHot() && !getDrinkCommand().isEmpty())
+            return getDrinkCommand().concat("h");
+        else return getDrinkCommand();
+    }
+
 }
